@@ -1,0 +1,30 @@
+{
+    "general": {
+      "username": "",
+      "password": "",
+      "hostname": "",
+      "greeting": "",
+      "langfile": "english.json",
+      "loglevel": "info",
+      "launchchrome": false,
+      "resolution": "HD",
+      "preview": "selected",
+      "renderer": "normal",
+      "logfolder": "/usr/src/app/LOG/",
+      "dataroot": "/usr/src/app/DATAROOT/",
+      "templatesource": "spx-ip-address",
+      "port": "5656",
+      "disableConfigUI": false,
+      "recents": []
+    },
+    "casparcg": {
+      "servers": []
+    },
+    "globalExtras": {
+      "customscript": "/ExtraFunctions/demoFunctions.js",
+      "CustomControls": []
+    },
+    "warning": "Modifications done in the SPX will overwrite this file.",
+    "smartpx": "(c) 2020-2022 Softpix (https://spx.graphics)",
+    "updated": "2022-12-25T17:06:31.304Z"
+  }
