@@ -15,7 +15,8 @@ docker build -t spx-v1.1.2 .
 ```
 
 ## Running the container
-* The container doesn't have a default configuration file included, so one must be passed in as a volume in order to save settings.
+* If no configuration file is passed to the container, a new ephemeral one is created to `/usr/src/app/config.json`.
+* Default port for the web gui in plain http is `5656`.
 
 ```sh
 docker run -p 5656:5656 -v /home/ubuntu/projektit/SPX-GC-v.1.1.2/config.json:/usr/src/app/config.json spx-v1.1.2
