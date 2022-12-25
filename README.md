@@ -11,7 +11,7 @@ curl -sL https://github.com/TuomoKu/SPX-GC/archive/refs/tags/v.1.1.2.tar.gz | ta
 * Build the container:
 
 ```sh
-docker build -t spx-v1.1.2 .
+docker build -t spx .
 ```
 
 ## Running the container
@@ -19,5 +19,5 @@ docker build -t spx-v1.1.2 .
 * Default port for the web gui in plain http is `5656`.
 
 ```sh
-docker run -p 5656:5656 -v /home/ubuntu/projektit/SPX-GC-v.1.1.2/config.json:/usr/src/app/config.json spx-v1.1.2
+docker run --name spx -p 5656:5656 -v /home/ubuntu/projektit/SPX-GC-v.1.1.2/config.json:/usr/src/app/config.json spx
 ```
